@@ -1,0 +1,375 @@
+.contenedor{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+header{
+    margin: 0 0;
+    width: 100%;
+    height: 20%;
+    background-color: #0575e6;
+}
+
+.superior{
+    width: 100%;
+    display: flex;
+    background-color: #0575E6;
+}
+
+.insignia{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.insignia img{
+    width: 15%;
+    height: 80%;
+}
+
+.insignia h1{
+    width: 50%;
+    font-style: bold;
+    color: white;
+    font-size: 100%;
+    margin: 0% 10px;
+    padding-top: 5%;
+}
+
+.plataforma{
+    width: 30%;
+    margin-left: 20%;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 0%;
+}
+
+.plataforma a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 5% 5px;
+    border:1px solid #00F260;
+    text-align: center;
+    background-color: grey;
+    padding: 0 3px;
+}
+
+.plataforma i{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.plataforma img{
+    width: 20%;
+    margin-top: 0;
+}
+
+/*Slider*/
+.contenedor-slider{
+    width: 100%;
+}
+
+.contenedor-slider .slider{
+    width: 100%;
+}
+
+.slider img{
+    width: 90%;
+    margin: 0 5%;
+}
+
+/*menu del sitio*/
+header .menu{
+    width: 100%;
+    padding: 1% 0;
+    align-items: center;
+    margin: 5px auto;
+}
+
+header .menu nav{
+    width: 50%;
+    margin: 1% 30%;
+    
+}
+
+.img-servicio a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 105, 180, 1);
+    padding: 0.5%;
+    border-radius: 7%;
+}
+
+.img-servicio a:hover {
+    color: rgba(255, 105, 180, 1);
+    background-color: white;
+}
+
+footer .telegram {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.956);
+    padding: 0.5%;
+    border-radius: 7%;
+    border-color: white;
+    box-shadow: darkblue;
+}
+
+footer .whatsapp {
+    padding-top: 10%;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(35, 180, 242);
+    padding: 0.5%;
+    border-radius: 7%;
+    border-color: white;
+}
+
+/*controla las caracteristicas de cada "boton" del menu*/
+header .menu nav li{
+    list-style: none;
+    text-decoration-style: none;
+    align-items: center;
+    display: inline-block;
+    padding: 0.5% 1%;
+    margin: 2% 0.5%;
+    border: 1px solid #00F260;
+    background-color: grey;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .75);
+    align-content: space-around;
+}
+
+header .menu nav li:hover{
+    background-color: #00F260;
+}
+
+header .menu nav li:hover a{
+    color: tomato;
+}
+
+header .menu nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    background-color: rgba(187, 78, 163, 0.712);
+    margin: 20px 20px;
+    padding: 1% 1%;
+}
+
+.card .card-body p{
+    text-align: justify;
+}
+
+.modal-body p{
+    text-align: justify;
+}
+
+.jumbotron{
+    background-color: white;
+}
+
+.jumbotron:hover{
+    background-color: #E7E5DF;
+}
+
+/*logo de youtube en el anuncio*/
+.jumbotron .youtube{
+    color: red;
+    size: 120%;
+}
+
+.jumbotron h1{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+/*parrafo en el aviso del youtube*/
+.jumbotron p{
+    text-align: justify;
+}
+
+footer{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: white;
+    display: flex;
+    
+    background: #ffe4e1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #de6decc5, #b0f2c2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #de6decc5, #b0f2c2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.carousel-item{
+    overflow: hidden;
+}
+
+footer span{
+    color: white
+}
+
+footer .ubicacion{
+    width: 50%;
+    padding: 1% 5%;
+    overflow: hidden;
+    margin-bottom: 1%;
+}
+
+footer .titulo-pie{
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+    margin-left: 1%;
+}
+
+footer .cont-titulo-pie{
+    color: white;
+    margin-left: 1%;
+}
+
+/*footer .ubicacion iframe{
+    width: 90%;
+    height: 100%;
+}*/
+
+footer iframe{
+    width: 95%;
+    padding-left: 5%;
+}
+
+footer .youtube{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: red;
+    font-size: 150%;
+    margin-left: 1%;
+}
+
+footer .telegram{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: #229ED9;
+    font-size: 150%;
+    margin-left: 1%;
+}
+
+footer .whatsapp{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: chartreuse;
+    font-size: 150%;
+    margin-left: 1%;
+}
+
+span{
+    font-weight: bold;
+    color: white;
+    border-bottom: 1.5px solid white;
+    margin-bottom: 1%;
+}
+
+.contenido-servicio ul p{
+    margin-bottom: 5%;
+}
+
+footer h3{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+footer .redes p{
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+footer .fb{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: blue;
+    font-size: 150%;
+}
+
+footer .twitter{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: skyblue;
+}
+
+.pru{
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+.informacion{
+    padding-top: 1%;
+}
+
+.ingreso{
+    align-content: center;
+    border: 1px solid black;
+    background: rgba(13, 94, 160, 0.4);
+    width: 100%;
+    max-width: 500px;
+    margin: 15% auto;
+}
+
+.ingreso p{
+    width: 100%;
+    max-width: 50%;
+    margin: 0% 30% 10px;
+    padding-top: 5px;
+    color: seagreen;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ingreso input[type="password"]{
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 15px 0;
+}
+
+.ingreso input[type="submit"]{
+    background: rgba(241, 139, 4, 0.842);
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    max-width: 40%;
+    padding: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 30%;
+    transition: .4s;
+}
+
+.zeldas{
+    background: rgba(255, 105, 180, 1);
+}
+
+.ingreso input[type="submit"]:hover {
+    background: rgba(58, 226, 7, 0.63);
+    color: tomato;
+}
+
+footer h6{
+    width: 100%;
+    color: white;
+    text-align: center;
+    /*margin-bottom: 0%;*/
+    box-sizing: border-box;
+    /*background: #00F260;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
